@@ -21,12 +21,6 @@ public class EjerciciosLogic1DanielaValera{
 
 	}
 
-	//EJERCICIO 2-30: DATEFASHION
-	//Enunciado: Tú y tu cita estáis buscando mesa para un restaurante. 
-	public int dateFashion (int you, int date) {
-		return 0;
-	}
-
 	//EJERCICIO 3-30: SQUIRRELPLAY
 	//Enunciado: Las ardillas en Palo Alto pasan la mayor parte del día jugando. 
 	//Juegan si la temperatura está entre 60 y 90, ambos inclusive. Salvo en verano,
@@ -113,14 +107,6 @@ public class EjerciciosLogic1DanielaValera{
 		else {
 			return false;
 		}
-	}
-
-	//EJERCICIO 8-30: IN1TO10
-	//Enunciado: Dado un número n, devuelve true si n está entre 1-10 ambos inclusive.
-	//Salvo si "outsideMore" es true entonces devuelve true si el numero es menor o igual que 1
-	// o mayor o igual que 0
-	public boolean in1To10(int n, boolean outsideMode) {
-		return false;
 	}
 
 	//EJERCICIO 9-30: SPECIALELEVEN
@@ -307,12 +293,6 @@ public class EjerciciosLogic1DanielaValera{
 		}
 		return false;  
 	}
-
-	//EJERCICIO 23-30: LESSBY10
-	//Enunciado:  
-	public boolean lessBy10(int a, int b, int c) {
-		return false;
-	}
 	
 	//EJERCICIO 24-30: WITHOUTDOUBLES
 	//Enunciado: Tiro dos dados. Dame la suma salvo cuando noDoubles es true y los dos tiros de
@@ -322,18 +302,13 @@ public class EjerciciosLogic1DanielaValera{
 		  return die1 + die2 +1;
 		  }
 		  return die1 + die2;
-		}
+	}
 
 	public void run(){
 		//1: cigarParty
 		System.out.println (cigarParty(30, false));
 		System.out.println (cigarParty(50, false));
 		System.out.println (cigarParty(70, true));
-
-		//2: dateFashion
-		System.out.println (dateFashion(5, 10));
-		System.out.println (dateFashion(5, 2));
-		System.out.println (dateFashion(5, 5));
 
 		//3: squirrelPlay
 		System.out.println (squirrelPlay(70, false));
@@ -359,11 +334,6 @@ public class EjerciciosLogic1DanielaValera{
 		System.out.println (love6(6, 4));
 		System.out.println (love6(4, 5));
 		System.out.println (love6(1, 5));
-
-		//8: in1To10 
-		System.out.println (in1To10(5, false));
-		System.out.println (in1To10(11, false));
-		System.out.println (in1To10(11, true));
 
 		//9: specialEleven 
 		System.out.println (specialEleven(22));
@@ -433,29 +403,13 @@ public class EjerciciosLogic1DanielaValera{
 		//22:lastDigit
 		System.out.println (lastDigit(23, 19, 13));
 		System.out.println (lastDigit(23, 19, 12));
-		System.out.println (lastDigit(23, 19, 3)); 
-
-		//23: lessBy10 
-		System.out.println (lessBy10(1, 7, 11)); 
-		System.out.println (lessBy10(1, 7, 10)); 
-		System.out.println (lessBy10(11, 1, 7)); 
+		System.out.println (lastDigit(23, 19, 3));  
 
 		//24: withoutDoubles
 		System.out.println (withoutDoubles(2, 3, true)); 
 		System.out.println (withoutDoubles(3, 3, true)); 
 		System.out.println (withoutDoubles(3, 3, false)); 
 
-		//25:
-
-		//26:
-
-		//27:
-
-		//28:
-
-		//29:
-
-		//30:
 	}
 
 }
