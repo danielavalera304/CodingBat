@@ -86,7 +86,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         boolean contiene = false;
         for (int i = 0; i < listaFormas.size(); i++) {
             if (((Shape) listaFormas.get(i)).contains(x,y)){
-                //si en algun momento el contains devuelve true
+                //si en algun memento el contains devuelve true
                 //es porque el punto que he pasado está en una forma
                 //de las que tengo guardadas en el arraylist
                 contiene = true;
